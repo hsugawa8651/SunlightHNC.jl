@@ -5,7 +5,7 @@ DocMeta.setdocmeta!(SunlightHNC, :DocTestSetup, :(using SunlightHNC); recursive=
 
 makedocs(;
     modules=[SunlightHNC],
-    authors="Hiroharu Sugawara, Tokyo Metropolitan University <hsugawa@tmu.ac.jp>",
+    authors="Hiroharu Sugawara <hsugawa@gmail.com> and contributors",
     sitename="SunlightHNC.jl",
     format=Documenter.HTML(;
         canonical="https://hsugawa8651.github.io/SunlightHNC.jl",
