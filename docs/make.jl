@@ -9,7 +9,7 @@ makedocs(;
     sitename="SunlightHNC.jl",
     format=Documenter.HTML(;
         canonical="https://hsugawa8651.github.io/SunlightHNC.jl",
-        edit_link="master",
+        edit_link="main",
         assets=String[],
     ),
     pages=[
@@ -25,5 +25,5 @@ makedocs(;
 
 deploydocs(;
     repo="github.com/hsugawa8651/SunlightHNC.jl",
-    devbranch="master",
+    devbranch="main",
 )
